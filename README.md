@@ -1,6 +1,5 @@
 # Traffic Ligh Controller
-!(https://img.shields.io/badge/Powered%20By-Valitutto-Ventre-blue)
-Created for the project related to the "Tecnologie Digitali" subject at the University of Salerno 
+This reopsitory is created for the project related to the "Tecnologie Digitali" subject at the University of Salerno.
 
 ## Group Members
 * [Andrea Valitutto](https://github.com/andrewvali)
