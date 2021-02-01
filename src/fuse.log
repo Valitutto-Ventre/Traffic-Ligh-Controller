@@ -1,0 +1,36 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Andrea Valitutto/Desktop/Esame FINALE LIcciardo/Progetto/Controller_tb_isim_par.exe" -prj "C:/Users/Andrea Valitutto/Desktop/Esame FINALE LIcciardo/Progetto/Controller_tb_par.prj" "work.Controller_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Andrea Valitutto/Desktop/Esame FINALE LIcciardo/Progetto/netgen/par/Controller_timesim.v" into library work
+Parsing VHDL file "C:/Users/Andrea Valitutto/Desktop/Esame FINALE LIcciardo/Progetto/Controller_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module glbl
+Compiling module X_IPAD
+Compiling module X_BUF
+Compiling module X_OPAD
+Compiling module X_OBUF
+Compiling module mux
+Compiling module X_MUX2
+Compiling module X_BUFGMUX(LOC="BUFGMUX0")
+Compiling module X_INV(LOC="BUFGMUX0")
+Compiling module X_LUT4(INIT=16'b1111110011111111...
+Compiling module ffsrce
+Compiling module X_FF
+Compiling module X_FF(INIT=1'b1)
+Compiling module X_ZERO
+Compiling module X_ONE
+Compiling module Controller
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package vl_types
+Compiling architecture behavior of entity controller_tb
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+Compiled 4 VHDL Units
+Compiled 64 Verilog Units
+Built simulation executable C:/Users/Andrea Valitutto/Desktop/Esame FINALE LIcciardo/Progetto/Controller_tb_isim_par.exe
+Fuse Memory Usage: 32784 KB
+Fuse CPU Usage: 733 ms

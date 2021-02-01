@@ -1,0 +1,2 @@
+verilog work "netgen/par/Controller_timesim.v"
+vhdl work "Controller_tb.vhd"

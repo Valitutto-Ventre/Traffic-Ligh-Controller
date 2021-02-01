@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Feb 16 13:15:33 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+TIMEGRP clk = BEL "count_4" BEL "count_3" BEL "count_5" BEL "count_1" BEL
+        "count_0" BEL "count_2" BEL "current_state_1" BEL "current_state_0"
+        BEL "current_state_2" BEL "clk_BUFGP/BUFG.GCLKMUX" BEL
+        "clk_BUFGP/BUFG";
+SCHEMATIC END;
+
